@@ -19,7 +19,7 @@ public class Exercise04 {
 		// Read the input and storage in the variable gra2
 		gra2 = sc.nextInt();
 		// Calculate the average
-		avg = gra1+gra2/2;
+		avg = (gra1+gra2) / 2;
 		// Show the average to the user
 		System.out.println("Tu nota media es: " + avg);
 		// Close the scanner
