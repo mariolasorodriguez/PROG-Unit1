@@ -6,7 +6,7 @@ public class Exercise02 {
 	public static void main(String[] args) {
 		// Creation of the scanner
 		Scanner sc = new Scanner(System.in);
-		// Declaration of the variable
+		// Declaration of the variable to storage the age
 		int age;
 		// Ask the user for her age
 		System.out.println("Escribe tu edad:");
