@@ -6,9 +6,11 @@ public class Exercise04 {
 	public static void main(String[] args) {
 		// Creation of the scanner
 		Scanner sc = new Scanner(System.in);
-		// Declaration of variables to storage two grades and the average
+		// Declaration of variables to storage the first grade
 		int gra1;
+		// Declaration of variable to storage the second grade
 		int gra2;
+		// Declaration of variable to storage the average of the grades
 		double avg;
 		// Ask the user for the first grade
 		System.out.println("Introduce la primera nota: ");

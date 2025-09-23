@@ -6,9 +6,11 @@ public class Exercise05 {
 	public static void main(String[] args) {
 		// Creation of the scanner
 		Scanner sc = new Scanner(System.in);
-		// Declaration of variables
+		// Declaration of variable to storage the radius
 		double radius;
+		// Declaration of variable to storage the length
 		double length;
+		// Declaration of variable to storage the area
 		double area;
 		// Ask the user for the radius
 		System.out.println("Introduce el radio de tu circunferencia: ");

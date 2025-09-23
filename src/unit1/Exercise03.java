@@ -6,8 +6,9 @@ public class Exercise03 {
 	public static void main(String[] args) {
 		// Creation of the Scanner
 		Scanner sc = new Scanner(System.in);
-		// Declaration of variables to storage year and birth date
+		// Declaration of variable to storage year
 		int year;
+		// Declaration of variable to storage the birth year
 		int birthYear;
 		// Ask the user for the actual year
 		System.out.println("Introduce el año actual: ");
