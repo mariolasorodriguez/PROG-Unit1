@@ -14,9 +14,9 @@ public class Exercise05 {
 		radius = sc.nextDouble();
 		// Close the scanner
 		sc.close();
-		// Calculate the length and declarate variable
+		// Calculate the length and declare variable
 		double length = 2 * Math.PI * radius;
-		// Calculate the area and declarate variable
+		// Calculate the area and declare variable
 		double area = Math.PI * Math.pow(radius, 2);
 		// Show the results
 		System.out.println("El área de tu circunferencia es: " + area );
