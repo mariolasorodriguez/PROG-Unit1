@@ -17,11 +17,7 @@ public class Exercise09 {
 		// Close the scanner
 		sc.close();
 		// Check if you are of legal age
-		if (age >= 18) {
-			legalAge = true;
-		}	else {
-			legalAge = false;
-		}
+		legalAge = age >= 18;
 		// Show the results
 		System.out.println("¿Eres mayor de edad? " + legalAge);
 	}
