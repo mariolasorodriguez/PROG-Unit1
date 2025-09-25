@@ -17,11 +17,7 @@ public class Exercise10 {
 		// Close the scanner
 		sc.close();
 		// Check if the number is even or odd
-		if (number % 2 == 0) {
-			even = true;
-		}	else {
-			even = false;
-		}
+		even = number %2 == 0;
 		// Print the result
 		System.out.println("¿Tú numero es par? " + even);
 	}
