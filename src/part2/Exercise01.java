@@ -14,9 +14,11 @@ public class Exercise01 {
 		System.out.println("Introduce el número a redondear: ");
 		// Scan the input
 		number = reader.nextDouble();
-		// 
-		
-		
-		
+		// Close the scanner
+		reader.close();
+		// Calculate rounding
+		rounded = (int) number < 5 ? - 1: + 1;
+		// Show the results
+		System.out.println("El número redondeado es: " + rounded);
 	}
 }
