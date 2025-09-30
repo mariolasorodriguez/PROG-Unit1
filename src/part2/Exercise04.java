@@ -30,7 +30,8 @@ public class Exercise04 {
 		System.out.println("Introduce el valor de x: ");
 		// Scan the input
 		x = reader.nextInt();
-		
+		// Show the equation
+		System.out.println("");
 	}
 
 }
