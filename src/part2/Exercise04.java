@@ -9,7 +9,6 @@ public class Exercise04 {
 		int a;
 		int b;
 		int c;
-		int x;
 		// Declare variable to show the equation
 		int y;
 		// Create the scanner
@@ -26,10 +25,6 @@ public class Exercise04 {
 		System.out.println("Introduce el valor de c: ");
 		// Scan the input
 		c = reader.nextInt();
-		// Ask the user for the value x
-		System.out.println("Introduce el valor de x: ");
-		// Scan the input
-		x = reader.nextInt();
 		// Show the equation
 		System.out.println("");
 	}
