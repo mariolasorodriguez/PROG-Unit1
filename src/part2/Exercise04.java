@@ -10,7 +10,7 @@ public class Exercise04 {
 		int b;
 		int c;
 		// Declare variable to show the equation
-		int y;
+		final String y;
 		// Create the scanner
 		Scanner reader = new Scanner(System.in);
 		// Ask the user for the coefficient a
@@ -25,8 +25,12 @@ public class Exercise04 {
 		System.out.println("Introduce el valor de c: ");
 		// Scan the input
 		c = reader.nextInt();
+		// Close the scanner
+		reader.close();
+		// Calculate the equation
+		y = a + "x^2+" + b + "x+" + c;
 		// Show the equation
-		System.out.println("");
+		System.out.println("El valor es igual a y=" + y);
 	}
 
 }
