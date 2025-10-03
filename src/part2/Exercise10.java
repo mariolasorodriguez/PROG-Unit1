@@ -14,6 +14,8 @@ public class Exercise10 {
 		System.out.println("Introduce el año: ");
 		// Scan the input
 		year = reader.nextInt();
+		// Close the scanner
+		reader.close();
 		// Calculate the century
 		century = ((year - 1) / 100) + 1;
 		// Show the result
